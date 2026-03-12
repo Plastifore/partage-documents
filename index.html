@@ -39,11 +39,9 @@
 <h1>Documents disponibles</h1>
 
 <ul>
-{% for file in site.static_files %}
-  {% if file.extname == ".pdf" %}
-    <li><a href="{{ file.path | relative_url }}">{{ file.name }}</a></li>
-  {% endif %}
-{% endfor %}
+    <li><a href="Aff.%20DUMAS%20Patrice%20-%20Commune%20St%20Martin%20d%20Ardèche.pdf">
+        Affaire DUMAS Patrice – Commune Saint‑Martin‑d’Ardèche (PDF)
+    </a></li>
 </ul>
 
 </body>
